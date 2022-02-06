@@ -7,6 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1Y9tOSAIZe5NPkhKOumPXrVtSmgmxKZlQ
 """
 
+# A celebrity is a person who is known to all but does not know anyone at a party. If you go to a party of N people, find if there is a celebrity in the party or not.
+# A square NxN matrix M[][] is used to represent people at the party such that if an element of row i and column j  is set to 1 it means ith person knows jth person. 
+# Here M[i][i] will always be 0.
+# Note: Following 0 based indexing.
+
 N = 4
 M = [[0,1,1,0],
      [0,0,0,0],
