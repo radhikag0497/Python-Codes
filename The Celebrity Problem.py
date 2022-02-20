@@ -44,6 +44,6 @@ print(Dict)
 if (max_value == len(M)-1):
   # index of person, who is known by all people in party
   max_key = max(Dict, key=Dict.get)
-  print(max_key)
+  print(max_key, "is Celebrity")
 else:
   print(-1)
